@@ -82,7 +82,7 @@ p {
 .monet__two {
   top: 200px;
   right: 400px;
-  animation: monetTwo 2.2s infinite;
+  animation: monetTwo 2.5s infinite;
 }
 .mont__wrap {
   position: absolute;
@@ -97,7 +97,7 @@ p {
 .monet__four {
   top: 320px;
   right: 225px;
-  animation: monetFour 2.3s infinite;
+  animation: monetFour 2.5s infinite;
 }
 
 @keyframes monetFour {
