@@ -13,10 +13,106 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Swiper js link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <section class="content">
       <!-- Sales section -->
+
+      <div class="what__course">
+        <div class="what__course__left">
+          <h1></h1>
+          <div class=""></div>
+        </div>
+        <div class="what__course__right"></div>
+      </div>
+
+      <div class="parent__author">
+        <div class="container">
+          <div class="author">
+            <div class="author__header">Aвтор курса</div>
+            <div class="author__content">
+              <div class="author__content__left">
+                <div class="author__name">
+                  <img src="./image/money.png" alt="money" />
+                  <p>Антон Бергов</p>
+                </div>
+                <p class="author__desc">
+                  Антон владелец 3 студий по разработке игр, делал игры всех
+                  жанров, для малышей, подростков в взрослау аудитории.
+                  Заработал на играх, а не просто учитель без опыта. На реальных
+                  примерах покажет, какие фишки надо, чтобы добиться прибыли
+                  Более 50 своих живых игр, которые есть в плей маркете. Они
+                  занимают топаые позици. Научит делать игры на которые будут
+                  зарабаотывать деньги. Так что записывайся по быстрее, обучение
+                  стартут 1 сентября и вне факт, xnj tot ,eltn!
+                </p>
+              </div>
+              <div class="author__content__right">
+                <div class="iframe__vedio">
+                  <iframe
+                    width="500"
+                    height="280"
+                    src="https://www.youtube.com/embed/zsjC6fa_YBg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider section -->
+      <div class="slider">
+        <div class="container">
+          <div class="slider__wrap">
+            <div class="slider__header">
+              <img src="./image/baum.png" alt="baum__left" />
+              <p class="slider__header__text">ПРОЕКТЫ АВТОРА - БОЛЛЕЕ 50 игр</p>
+              <img src="./image/baum.png" alt="baum__right" />
+            </div>
+            <div class="slider__body">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      class="img__slider"
+                      src="https://static.tildacdn.com/tild6262-6337-4135-b733-386137663066/2022-08-13_133346.jpg"
+                      alt="img1"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img__slider"
+                      src="https://images.pexels.com/photos/3852577/pexels-photo-3852577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      alt="img2"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img__slider"
+                      src="https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         <div class="sales__secion">
           <div class="text__sales">
@@ -210,7 +306,6 @@
               </div>
               <div class="price__body"></div>
             </div>
-            
           </div>
         </div>
       </div>
@@ -289,9 +384,7 @@
         </div>
       </div>
     </section>
-
-    <script src="./index.js">
-      // Function for Accardion//
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

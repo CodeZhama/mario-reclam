@@ -33,3 +33,20 @@ let time = setInterval(function () {
   minuteSpan.innerText = minutes;
   secondySpan.innerText = secondy;
 }, 1000);
+
+function sliderFunc() {
+  var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+   
+  });
+}
+sliderFunc();
