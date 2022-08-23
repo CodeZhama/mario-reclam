@@ -8,6 +8,7 @@
 :root {
   --light-blue: #e5ebf2;
   --dark: #000000;
+  --orange: #f1730c;
 }
 h1,
 h2,
@@ -98,7 +99,6 @@ p {
   transition: all 0.2s ease-in-out;
 }
 
-
 /* Programm course */
 .programma__course {
   padding: 20px 0 40px 0;
@@ -157,9 +157,10 @@ p {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 25px 30px;
+  padding: 22px 30px 22px 100px;
   border-radius: 5px;
-  background-color: #f1730c;
+  margin: 10px 0;
+  background-color: var(--orange);
 }
 .text__sales {
   display: flex;
@@ -174,6 +175,7 @@ p {
   font-weight: 700;
   font-size: 89px;
   color: #ffffff;
+  margin-left: 10px;
 }
 .span__one {
   font-size: 25px;
@@ -188,7 +190,7 @@ p {
   font-size: 40px;
   color: #ffffff;
   animation: dots 1s infinite;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 @keyframes dots {
@@ -201,4 +203,190 @@ p {
   100% {
     opacity: 1;
   }
+}
+
+.days {
+  margin-left: 15px;
+  color: #ffffff;
+  max-width: 238px;
+  font-size: 29px;
+  line-height: 40px;
+}
+
+.sales__button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 20px 90px;
+  border: none;
+  color: var(--orange);
+  font-size: 34px;
+  font-weight: bold;
+}
+/* Will get the program  */
+.get__programm {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin: 20px 0 50px 0;
+  background-color: var(--orange);
+  padding: 43px 50px 23px 50px;
+  border-radius: 5px;
+}
+
+.get__programm__left__title {
+  font-size: 46px;
+  line-height: 64px;
+  font-weight: bold;
+  max-width: 530px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.get__programm__left__sub {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  max-width: 419px;
+  color: #ffffff;
+}
+.get__programm__right {
+}
+.form__control {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.form__input {
+  width: 100%;
+  border: none;
+  border-bottom: 4px solid #ffffff;
+  background: none;
+  padding: 14px 0 14px 5px;
+  font-size: 20px;
+}
+.form__input::placeholder {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+  color: #001e4d;
+}
+.form__input:focus {
+  outline: none;
+}
+.get__btn {
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.get__btn__item {
+  background-color: #ffffff;
+  width: 100%;
+  border: none;
+  padding: 18px 0 6px 0;
+}
+/* What my course */
+
+.about__course {
+  position: relative;
+  min-height: 500px;
+  padding: 60px 20px;
+  border-radius: 5px;
+  background-color: #4194fb;
+  margin: 0 0 79px 0;
+}
+
+.about__course__title {
+  text-align: center;
+  line-height: 70px;
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.inner__about__course {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  top: 180px;
+  left: 2.5%;
+  gap: 111px;
+  background-color: #4194fb;
+  min-height: 400px;
+}
+.support__course {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.support__header {
+  display: flex;
+  width: 131px;
+  height: 131px;
+}
+.support__header > img {
+  width: 100%;
+  object-fit: contain;
+}
+.support__name {
+  text-align: center;
+  color: #00f311;
+  line-height: 41px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.support__description {
+  max-width: 254px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* Price programm section */
+
+.price {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+.inner__price {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.inner__price__item {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.price__header {
+  text-align: center;
+  color: #ffffff;
+  padding: 18px;
+  background-color: #1e73be;
+}
+.price__header > h1 {
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+}
+
+.price__header > h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3em;
+  letter-spacing: 0.8px;
+  margin-top: 5px;
+}
+
+.price__body {
+  min-height: 400px;
+  background-color: #f7f7f7;
 }
