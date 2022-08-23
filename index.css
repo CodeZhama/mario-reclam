@@ -686,6 +686,7 @@ p {
 /* CountDown Time */
 .countdown__big {
   margin-top: 44px;
+  border-radius: 5px;
 }
 .countdown__inner {
   display: flex;
